@@ -20,7 +20,7 @@
  * @package    theme
  * @subpackage bcu_ingenio
  * @copyright  2014 Birmingham City University <michael.grant@bcu.ac.uk>
- * @modified 2016 Lleida <xavigaya@gmail.com>
+ * @modified Xavi Gaya 2016 Lleida <xavigaya@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  */

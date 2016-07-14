@@ -148,7 +148,7 @@ echo $OUTPUT->doctype();
                     <button type="submit" class="no-border bg-white pas search-box__button"><abbr class="fa fa-search"></abbr></button>
                 </div>
             </form>
-        </div>
+        </div> 
                   
         <div id="course-header">
             <?php echo $OUTPUT->course_header(); ?>

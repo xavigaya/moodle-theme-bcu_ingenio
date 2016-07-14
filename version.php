@@ -18,7 +18,7 @@
  * Version details
  *
  * @package    theme
- * @subpackage bcu
+ * @subpackage bcu_ingenio
  * @copyright  2014 Birmingham City University <michael.grant@bcu.ac.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die;
 
 $plugin->version   = 2015070100;
 $plugin->requires  = 2013110500;
-$plugin->component = 'theme_bcu';
+$plugin->component = 'theme_bcu_ingenio';
 $plugin->release = '1.3.1';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->dependencies = array(
