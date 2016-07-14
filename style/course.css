@@ -1,0 +1,111 @@
+.courses .coursebox.even, .courses .coursebox {
+	background: #fafafa !important;
+	border-radius: 6px;
+}
+
+.courses .coursebox.even {
+	background: #eee !important;
+}
+
+.coursebox > .info > .coursename a {
+	font-weight: normal;
+	font-size: 80%;
+}
+
+.coursebox > .info > h3.name, .course_category_tree .category > .info .name {
+    font-size: 120%;
+    font-weight: normal;
+    margin: 0;
+}
+
+.coursebox .content {
+	clear: none;
+}
+
+.coursebox {
+	padding: 0 0;
+	border: 0px;
+	border-radius: 0px;
+}
+
+#page .course-content ul li.section.main {
+	border: 1px solid #e8eaeb;
+	margin-bottom: 20px;
+}
+
+.site-topic ul.section, .course-content ul.section {
+	margin: 0em 1em;
+}
+
+#newdiscussionform {
+	text-align: center;
+}
+
+#searchforums {
+	margin: 5px 0px 5px 5px;
+}
+
+.course-content .current {
+    background-color: transparent;
+    border-left: 0px solid #ccc;
+    border-right: 0px dashed #ccc;
+    margin-top: 0px !important;
+}
+
+.panel-body {
+	overflow: hidden;
+}
+
+.panel-body .courseimage img {
+    float: right;
+    margin-bottom: 10px;
+    max-width: 60px;
+    margin-left: 5px;
+}
+/*
+.panel .summary {
+	position: relative;
+}
+*/
+.course-content ul li.section .side {
+	display: none;
+}
+
+.editing .course-content ul li.section .side {
+	display: inherit;
+}
+
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {
+	margin: 0 0;
+}
+
+.editing .course-content ul.topics li.section .content, .editing .course-content ul.weeks li.section .content {
+	margin: 0px 20px;
+}
+
+.course-content ul li.section.main {
+	margin: 0 0;
+	padding-top: 12px;
+}
+
+h3.sectionname {
+    background: #f3f3f3;
+    color: #5f588a;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -12px;
+    padding: 3px 10px;
+}
+
+.section .activity .mod-indent-outer {
+    padding-left: 23px;
+}
+
+.path-course-view .completionprogress {
+    color: #666;
+    float: none;
+    font-size: 90%;
+    padding: 0 0 10px;
+}
+
+#gridshadebox_content .content .summary, #gridshadebox_content .content ul.section {padding: 0 20px;}

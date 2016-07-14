@@ -1,0 +1,137 @@
+.block {
+	border: 0px solid #ccc;
+	padding: 0 0;
+	box-shadow: none;
+	background: transparent;
+	border-radius: 0px;
+	border: 0px solid #e8eaeb;
+}
+
+.block .header {
+	border-top: 1px solid [[setting:maincolor]];
+	padding: 10px 10px;
+	padding-right: 0px;
+	background: transparent;
+	border-bottom: 0px solid #e8eaeb;
+}
+
+.block.hidden .header {
+	border-bottom: 0px;
+}
+
+/* block titles */
+.block .header .title h2 {
+	font-weight: normal;
+	margin: 0 0;
+	padding: 0 0;
+	text-transform: none;
+	font-size: 16px;
+	color: #002f67;
+	margin: 0px 0px;
+	font-weight:bold;
+	text-shadow: none;
+}
+
+.block .content {
+	padding: 10px 10px;
+	font-weight: normal;
+	font-size: 90%;
+	background: [[setting:maincolour]];
+	color: #333;
+}
+
+.block .content a {
+    color: #333;
+}
+
+.block .header .block_action {
+	margin: 0 0;
+	margin-top: -5px;
+}
+
+.block_login .c1.btn input {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	width: 96%;
+}
+
+.block .block-hider-show, .block .block-hider-hide {
+	width: 18px;
+}
+
+/** some specific block styles for calendar block, login block, my profile block, etc. **/
+
+.block_calendar_month table.minicalendar.calendartable td,.block_calendar_month table.minicalendar.calendartable th {
+    border: none !important;
+}
+
+.block_calendar_month table.minicalendar {
+    margin-bottom: 0px !important;
+}
+
+.block_calendar_month table.minicalendar.calendartable th abbr {
+    border: none !important;
+    text-decoration: none;
+}
+
+.block_comments div.content li {
+    list-style-type: none;
+}
+
+.questionbankwindow.block {
+	padding: 0px;
+}
+
+.block_tree_box hr {
+	background: transparent;
+	border: none;
+	border-top: 1px solid #eee;
+}
+
+/*quiz editing block header */
+#page-mod-quiz-edit .questionbankwindow div.header {
+	background-color: #eee;
+	color: inherit;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header a {
+	color: inherit;
+}
+
+.block .content a.dimmed {
+    font-style: italic;
+}
+
+#mod_quiz_navblock input {
+    white-space: normal;
+}
+
+.loginbox .loginform .form-input input {
+    width: 50%;
+}
+
+.loginbox .loginform .form-input {
+    float: right;
+    width: 66%;
+}
+
+.loginbox .loginform .form-label {
+	width: 33%;
+}
+
+.block.invisible:hover {
+    opacity: 1;
+}
+
+.block .block-hider-show, .block .block-hider-hide {
+    width: 12px;
+}
+
+body.has_dock div#dock {
+	z-index: 3;
+}
+
+a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.dimmed_text:visited, .dimmed_text, .dimmed_text a, .dimmed_text a:link, .dimmed_text a:visited, .usersuspended, .usersuspended a, .usersuspended a:link, .usersuspended a:visited, .dimmed_category, .dimmed_category a {
+	color: #999;
+}
