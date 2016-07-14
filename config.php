@@ -18,13 +18,14 @@
  * Version details
  *
  * @package    theme
- * @subpackage bcu
+ * @subpackage bcu_ingenio
  * @copyright  2014 Birmingham City University <michael.grant@bcu.ac.uk>
+ * @modified 2016 Lleida <xavigaya@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  */
 
-$THEME->name = 'bcu';
+$THEME->name = 'bcu_ingenio';
 $THEME->doctype = 'html5';
 $THEME->parents = array('bootstrapbase');
 $THEME->sheets = array('custom', 'blocks', 'menu', 'course', 'slider', 'extras', 'zoom', 'button');
@@ -157,7 +158,7 @@ $THEME->layouts = array(
 );
 
 
-$THEME->csspostprocess = 'theme_bcu_process_css';
+$THEME->csspostprocess = 'theme_bcu_ingenio_process_css';
 $THEME->blockrtlmanipulations = array(
     'side-pre' => 'side-post',
     'side-post' => 'side-pre'
