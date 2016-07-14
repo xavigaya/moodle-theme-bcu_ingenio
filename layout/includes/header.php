@@ -140,7 +140,7 @@ echo $OUTPUT->doctype();
      <span title='<?php echo $PAGE->heading ?>'><?php echo $PAGE->heading ?></span>
      </div>
      
-        <!-- <div class="searchbox">
+        <div class="searchbox">
             <form action="<?php p($CFG->wwwroot) ?>/course/search.php">
                 <label class="hidden" for="search-1" style="display: none;">Search iCity</label>
                 <div class="search-box grey-box bg-white clear-fix">
@@ -148,7 +148,7 @@ echo $OUTPUT->doctype();
                     <button type="submit" class="no-border bg-white pas search-box__button"><abbr class="fa fa-search"></abbr></button>
                 </div>
             </form>
-        </div> -->
+        </div> 
                   
         <div id="course-header">
             <?php echo $OUTPUT->course_header(); ?>

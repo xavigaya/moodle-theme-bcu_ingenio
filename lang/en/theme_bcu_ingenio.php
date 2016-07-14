@@ -18,7 +18,7 @@
  * Version details
  *
  * @package    theme
- * @subpackage bcu
+ * @subpackage bcu_ingenio
  * @copyright  2014 Birmingham City University <michael.grant@bcu.ac.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
@@ -28,7 +28,7 @@ $string['choosereadme'] = '
 <div class="clearfix">
 <div class="well">
 <h2>BCU_ingenio Responsive</h2>
-<p><img class=img-polaroid src="bcu/pix/screenshot.png" /></p>
+<p><img class=img-polaroid src="bcu_ingenio/pix/screenshot.png" /></p>
 </div>
 <div class="well">
 <h3>About</h3>
