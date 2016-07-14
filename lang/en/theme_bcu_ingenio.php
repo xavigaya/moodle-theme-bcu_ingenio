@@ -18,7 +18,7 @@
  * Version details
  *
  * @package    theme
- * @subpackage bcu
+ * @subpackage bcu_ingenio
  * @copyright  2014 Birmingham City University <michael.grant@bcu.ac.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
@@ -27,8 +27,8 @@
 $string['choosereadme'] = '
 <div class="clearfix">
 <div class="well">
-<h2>BCU Responsive</h2>
-<p><img class=img-polaroid src="bcu/pix/screenshot.png" /></p>
+<h2>BCU_ingenio Responsive</h2>
+<p><img class=img-polaroid src="bcu_ingenio/pix/screenshot.png" /></p>
 </div>
 <div class="well">
 <h3>About</h3>
@@ -37,14 +37,14 @@ $string['choosereadme'] = '
 <p>This theme is based upon the Bootstrap theme, which was created for Moodle 2.6</p>
 </div></div>';
 
-$string['configtitle'] = 'BCU';
+$string['configtitle'] = 'BCU_ingenio';
 $string['region-middle'] = 'middle';
 $string['customcss'] = 'Custom CSS';
 $string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
 
 
 
-$string['pluginname'] = 'BCU';
+$string['pluginname'] = 'BCU_ingenio';
 
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
